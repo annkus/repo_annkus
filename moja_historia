@@ -1,0 +1,361 @@
+    1  wget http://download.virtualbox.org/virtualbox/5.1.18/virtualbox-5.1_5.1.18-114002~Ubuntu~xenial_amd64.deb
+    2  sudo VBoxManage extpack install --replace virtualbox-5.1_5.1.18-114002~Ubuntu~xenial_amd64.deb 
+    3  ls
+    4  rm virtualbox-5.1_5.1.18-114002~Ubuntu~xenial_amd64.deb 
+    5  wget https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh
+    6  bash Anaconda3-4.3.1-Linux-x86_64.sh 
+    7  exit
+    8  java
+    9  conda search pytho
+   10  conda search python
+   11  conda create --name python35 python=3.5.3
+   12  source activate python35
+   13  wget http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz
+   14  tar tzvf spark-2.1.0-bin-hadoop2.7.tgz 
+   15  tar xzvf spark-2.1.0-bin-hadoop2.7.tgz 
+   16  ln -s spark-2.1.0-bin-hadoop2.7 spark
+   17  ll
+   18  vim .bashrc
+   19  sudo apt install vim
+   20  mc
+   21  sudo apt install mc
+   22  vim .bashrc
+   23  ls spark/python/lib/py4j-0.10.4-src.zip 
+   24  vim .bashrc
+   25  exit
+   26  source activate python35
+   27  python
+   28  exit
+   29  sudo add-apt-repository ppa:webupd8team/java
+   30  sudo apt-get update
+   31  sudo apt-get install oracle-java8-installer
+   32  java -version
+   33  ls
+   34  rm spark-2.1.0-bin-hadoop2.7.tgz 
+   35  rm Anaconda3-4.3.1-Linux-x86_64.sh 
+   36  source activate python35
+   37  python
+   38  exit
+   39  vim tst.txt
+   40  python
+   41  exit
+   42  history | less
+   43  vim .bashrc
+   44  history | less
+   45  sudo add-apt-repository ppa:webupd8team/atom
+   46  sudo apt update
+   47  sudo apt list --upgradable
+   48  sudo apt install atom
+   49  atom 
+   50  exit
+   51  df -h
+   52  history | less
+   53  exit
+   54  tar tzvf Pobrane/pycharm-community-2016.3.3.tar.gz pycharm-community-2016.3.3/
+   55  tar xzvf Pobrane/pycharm-community-2016.3.3.tar.gz 
+   56  cd Pobrane/
+   57  ls
+   58  rm pycharm-community-2016.3.3.tar.gz 
+   59  cd ..
+   60  ls
+   61  cd pycharm-community-2016.3.3/
+   62  ls
+   63  vim Install-Linux-tar.txt 
+   64  bin/pycharm.sh 
+   65  cd ..
+   66  ls
+   67  cd PycharmProjects/
+   68  ls
+   69  rm -rf untitled/
+   70  cd ..
+   71  l
+   72  exit
+   73  pwd
+   74  ls
+   75  cd desktop
+   76  cd Desktop/
+   77  cd Pulpit/
+   78  cd Pulpit/^C
+   79  cd Pulpit/
+   80  cd/
+   81  cd /
+   82  ls
+   83  cd bin
+   84  bin$
+   85  ls
+   86  pwd
+   87  ls
+   88  cd /
+   89  cd bin
+   90  ls
+   91  cd /
+   92  cd bin
+   93  ls
+   94  cd ..
+   95  cd sbin/
+   96  ls
+   97  cd /
+   98  cd tmp/
+   99  ls
+  100  pwd
+  101  mkdir katalog1
+  102  pwd
+  103  cdkatalog1
+  104  cd katalog1 /
+  105  mddi kaalog2
+  106  mddir katalog2 
+  107  mkdir katalog2
+  108  pwd
+  109  cd katalog2
+  110  ls
+  111  ls -a
+  112  ls -al
+  113  cd ..
+  114  man
+  115  man ls
+  116  touch
+  117  touch .plik
+  118  ls
+  119  ls -a
+  120  ls - al
+  121  pwd
+  122  rm .plik
+  123  cd katalog2
+  124  ls -
+  125  ls -a
+  126  mkdir katalog3
+  127  cd kataog3
+  128  cd katalog3
+  129  rdir katalog3/
+  130  rmdir katalog2/
+  131  rmdir katalog3/
+  132  pwd
+  133  cd katalog2
+  134  rmdr atalog3/
+  135  rmdir katalog3/
+  136  cd katalog2
+  137  pwd
+  138  ..
+  139  cd..
+  140  cd ..
+  141  rmdir katalog3/
+  142  ls -a
+  143  pwd
+  144  touch plik_testowy.txt
+  145  ls
+  146  man echo
+  147  echo "In datascience is cool"
+  148  echo "Ing datascience is cool" > plik_testowy.txt
+  149  cat plik_testowy.txt
+  150  echo "Ing datascience is very cool" > plik_testowy.txt
+  151  cat plik_testowy.txt
+  152  echo "Ing datascience is very cool" >> plik_testowy.txt
+  153  cat plik_testowy.txt
+  154  echo "Ing datascience is very cool" >> plik_testowy.txt
+  155  cat plik_testowy.txt
+  156  echo "Ing datascience is very cool" > plik_testowy.txt
+  157  cat plik_testowy.txt
+  158  echo "Ing datascience is very cool" > plik_testowy.txt
+  159  cat plik_testowy.txt
+  160  echo "Ing datascience is very cool" >> plik_testowy.txt
+  161  echo "Ing datascience NIE JEST very cool" >> plik_testowy.txt
+  162  cat plik_testowy.txt
+  163  head plik_testowy.txt
+  164  tail plik_testowy.txt
+  165  head -5 plik_testowy.txt
+  166  cat plik_testowy.txt
+  167  cat plik_testowy.txt | head
+  168  cat plik_testowy.txt | head -5 | tail -2
+  169  cat plik_testowy.txt | wc 
+  170  cat plik_testowy.txt | wc -l
+  171  history
+  172  echo "Ing datascience NIE JEST very cool" >> plik_testowy.txt
+  173  cat plik_testowy.txt 
+  174  cat plik_testowy.txt
+  175  echo "Ing datascience NIE JEST very cool" >> plik_testowy.txt
+  176  cat plik_testowy.txt
+  177  echo "Ing datascience NIE JEST very cool YHM" >> plik_testowy.txt
+  178  cat plik_testowy.txt
+  179  ls -help
+  180  ls --help
+  181  cat plik_testowy.txt
+  182  cat plik_testowy.txt | grep Ing
+  183  cat plik_testowy.txt | grep ING
+  184  cat plik_testowy.txt | grep ^ING
+  185  cat plik_testowy.txt | grep *ING
+  186  cat plik_testowy.txt | grep "ING"
+  187  cat plik_testowy.txt | grep ~ING
+  188  man
+  189  /help
+  190  man grep
+  191  cat plik_testowy.txt | grep ING -i
+  192  cat plik_testowy.txt | grep ING -yhm
+  193  cat plik_testowy.txt | grep ING " nie jest" -i 
+  194  cat plik_testowy.txt | grep ING -yhm
+  195  cat plik_testowy.txt | grep ING yhm -i
+  196  cat plik_testowy.txt | grep "yhm" -i
+  197  cat plik_testowy.txt | grep "nie jest" -i
+  198  who
+  199  whoami
+  200  apt-get install postgres
+  201  sudo apt-get install postgres
+  202  sudo apt-get apt-get installsearch postgres
+  203  sudo apt-cache search postgres
+  204  sudo apt-get install postgresql-9.5
+  205  env
+  206  env | grep user -i
+  207  echo $PATH
+  208  $PWD
+  209  pwd
+  210  ps
+  211  ps -a
+  212  pa -au
+  213  ps -au
+  214  ps -au | grep -i firefox
+  215  ps -au 
+  216  ps -aux
+  217  ps -au | grep -i firefox
+  218  ps -aux | grep -i firefox
+  219  kill 9 25922
+  220  vim
+  221  pdw
+  222  cd ..
+  223  mkdir nasze_dane
+  224  pdw
+  225  PDW
+  226  pwd
+  227  mkdir nasze_dane /
+  228  cd nasze_dane/
+  229  pwd
+  230  touch imiona
+  231  ls
+  232  echo Anna
+  233  echo Magda
+  234  echo Leon
+  235  echo > imiona
+  236  echo "Anna" > imiona
+  237  echo "Magda" > imiona
+  238  echo "Leon" > imiona
+  239  cat imiona
+  240  echo "Magda" >> imiona
+  241  echo "Anna" >> imiona
+  242  cat imiona
+  243  sort imiona - desc
+  244  mn sort
+  245  man sort
+  246  sort imiona -f
+  247  echo "Adam" >> imiona
+  248  cat imiona
+  249  sort imiona -f
+  250  wc
+  251  w /
+  252  cat imiona| wc
+  253  man uniq
+  254  uniq imiona -u
+  255  cat imiona
+  256  uniq imiona 
+  257  cat imiona| wc -u
+  258  man uniq
+  259  wc -- help
+  260  wc -help
+  261  wc--hel
+  262  wc--help
+  263  uniq imiona
+  264  cat imiona| wc -u
+  265  uniqu imiona | wc
+  266  uniq imiona |wc
+  267  sudo apt-cache search postgres
+  268  cd .
+  269  pwd
+  270  cd ..
+  271  pwd
+  272  cd var
+  273  cd log
+  274  cd sys log
+  275  cd sysog
+  276  cd syslog
+  277  cat syslog
+  278  head syslog -5
+  279  cat syslog | head -5
+  280  cat syslog | tail -5
+  281  cat syslog | grep -error
+  282  cat syslog | grep -i "error"
+  283  cat syslog | grep -i "error"
+  284  cat syslog | grep -i "error" | wc 
+  285  cat syslog | grep -i "error" | wc  -l
+  286  cat syslog | grep -io "error" | wc  -l
+  287  cat syslog | grep -io "error" |
+  288  cat syslog | grep -io "error" 
+  289  cat syslog | grep -io "error"  | wc -l
+  290  cat syslog | grep -io "error" 
+  291  cat syslog | grep -i "error" 
+  292  cat syslog | grep -i "errors" 
+  293  cat syslog | grep -i "errors"  | wc
+  294  cat syslog | grep -i "errors" 
+  295  cat syslog | grep -i "errors"  | wc
+  296  cat syslog | grep -i "error"
+  297  cat syslog | grep -i "error" | wc
+  298  cat syslog | grep -io "error" | wc
+  299  phyon
+  300  phyton
+  301  python
+  302  cd ~/
+  303  git status
+  304  cd code
+  305  pwd
+  306  cd repo_annkus
+  307  pwd
+  308  git status
+  309  pwd
+  310  touch .gitignore
+  311  nano .gitignore
+  312  git staus
+  313  nano .gitignore
+  314  cat .gitignore
+  315  it status
+  316  git status
+  317  git
+  318  git add .
+  319  gt status
+  320  git status
+  321  ls -al .git
+  322  git stats
+  323  git status
+  324  git commit -m "Dodalam pierwszy plik Jupiter i .gitignore"
+  325  git push origin master
+  326  git status
+  327  git diff
+  328  git add .
+  329  git commit -m "Zapisalam zmianay n pliku jupiter"
+  330  git push origin master
+  331  git add.
+  332  git commit -m "zmienne znakowe dodane"
+  333  git push origin master
+  334  git satus
+  335  git status
+  336  git diff
+  337  git add.
+  338  git commit -m "zmienne znakowe dodane"
+  339  git push origin master
+  340  cd tmp
+  341  ck~/
+  342  cd ~/
+  343  pwd
+  344  mkdir tmp
+  345  cd tmp
+  346  git clone https://github.com/pazikkamil/sages_kurs_13102018.git
+  347  git add.
+  348  git commit -m "zmienne znakowe dodane"
+  349  git add
+  350  git add.
+  351  git status
+  352  cd ~/
+  353  cd code/
+  354  cd repo_annkus/
+  355  git status
+  356  git add.
+  357  git add .
+  358  git commit -m "zmienne znakowe dodane"
+  359  git push origin master
+  360  history
+  361  history > moja_historia
